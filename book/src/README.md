@@ -22,9 +22,9 @@
 
 ## 配套图书阅读入口
 
-- **在线电子书（GitHub Pages 自动编译）**：<https://unitclaw.github.io/microduck-wwduck/>
-- **英文版（American academic English edition）**：<https://unitclaw.github.io/microduck-wwduck/en/>
-- **书稿源码仓库**：<https://github.com/UnitClaw/microduck-wwduck>（`book/` 中文版、`book-en/` 英文版，mdbook 编写，随提交自动编译部署为网页电子书）
+- **在线电子书（GitHub Pages 自动编译）**：<https://unitclaw.github.io/microduck-WWrobot/>
+- **英文版（American academic English edition）**：<https://unitclaw.github.io/microduck-WWrobot/en/>
+- **书稿源码仓库**：<https://github.com/UnitClaw/microduck-WWrobot>（`book/` 中文版、`book-en/` 英文版，mdbook 编写，随提交自动编译部署为网页电子书）
 
 > 本书每一章书稿都与配套工程仓库的 commit hash 一一绑定，读者可 checkout 到对应版本，完整复现书中每一步实验。
 > 电子书每个章节**右上角**都有两个入口：📝「编辑」图标直达该章源文件、Octocat 图标直达仓库首页。
@@ -35,20 +35,20 @@
 
 | 电子书章节 | 仓库对应资源 |
 |---|---|
-| 配件商城 | [PARTS.md](https://github.com/UnitClaw/microduck-wwduck/blob/master/PARTS.md) · [商城](https://shop.wwntai.com) |
-| 最小仿真 Demo | [software/training/](https://github.com/UnitClaw/microduck-wwduck/tree/master/software/training) |
-| CAD 模型解析 | [cad/](https://github.com/UnitClaw/microduck-wwduck/tree/master/cad) · [CAD 仓库](https://github.com/UnitClaw/microduck-wwduck-cad) |
-| Onshape → MJCF | [scripts/](https://github.com/UnitClaw/microduck-wwduck/tree/master/scripts) |
-| 3D 打印与装配 | [print/](https://github.com/UnitClaw/microduck-wwduck/tree/master/print) · [BOM.md](https://github.com/UnitClaw/microduck-wwduck/blob/master/BOM.md) |
-| 硬件电路与总线 | [hardware/](https://github.com/UnitClaw/microduck-wwduck/tree/master/hardware) |
-| RK3566 镜像与固件 | [software/image/](https://github.com/UnitClaw/microduck-wwduck/tree/master/software/image) · [software/studio/](https://github.com/UnitClaw/microduck-wwduck/tree/master/software/studio) |
-| 舵机 / IMU 标定 | [tools/](https://github.com/UnitClaw/microduck-wwduck/tree/master/tools) |
-| 仿真与训练 | [software/training/](https://github.com/UnitClaw/microduck-wwduck/tree/master/software/training) |
-| ONNX 部署 | [software/studio/](https://github.com/UnitClaw/microduck-wwduck/tree/master/software/studio) |
-| 真机步态 | [software/](https://github.com/UnitClaw/microduck-wwduck/tree/master/software) |
-| 工程化与开源 | [NOTICE.md](https://github.com/UnitClaw/microduck-wwduck/blob/master/NOTICE.md) · [LICENSE](https://github.com/UnitClaw/microduck-wwduck/blob/master/LICENSE) |
-| BOM 采购清单 | [BOM.md](https://github.com/UnitClaw/microduck-wwduck/blob/master/BOM.md) |
-| 故障排查 | [踩坑记录.md](https://github.com/UnitClaw/microduck-wwduck/blob/master/踩坑记录.md) |
+| 配件商城 | [PARTS.md](https://github.com/UnitClaw/microduck-WWrobot/blob/master/PARTS.md) · [商城](https://shop.wwntai.com) |
+| 最小仿真 Demo | [software/training/](https://github.com/UnitClaw/microduck-WWrobot/tree/master/software/training) |
+| CAD 模型解析 | [cad/](https://github.com/UnitClaw/microduck-WWrobot/tree/master/cad) · [CAD 仓库](https://github.com/UnitClaw/microduck-wwduck-cad) |
+| Onshape → MJCF | [scripts/](https://github.com/UnitClaw/microduck-WWrobot/tree/master/scripts) |
+| 3D 打印与装配 | [print/](https://github.com/UnitClaw/microduck-WWrobot/tree/master/print) · [BOM.md](https://github.com/UnitClaw/microduck-WWrobot/blob/master/BOM.md) |
+| 硬件电路与总线 | [hardware/](https://github.com/UnitClaw/microduck-WWrobot/tree/master/hardware) |
+| RK3566 镜像与固件 | [software/image/](https://github.com/UnitClaw/microduck-WWrobot/tree/master/software/image) · [software/studio/](https://github.com/UnitClaw/microduck-WWrobot/tree/master/software/studio) |
+| 舵机 / IMU 标定 | [tools/](https://github.com/UnitClaw/microduck-WWrobot/tree/master/tools) |
+| 仿真与训练 | [software/training/](https://github.com/UnitClaw/microduck-WWrobot/tree/master/software/training) |
+| ONNX 部署 | [software/studio/](https://github.com/UnitClaw/microduck-WWrobot/tree/master/software/studio) |
+| 真机步态 | [software/](https://github.com/UnitClaw/microduck-WWrobot/tree/master/software) |
+| 工程化与开源 | [NOTICE.md](https://github.com/UnitClaw/microduck-WWrobot/blob/master/NOTICE.md) · [LICENSE](https://github.com/UnitClaw/microduck-WWrobot/blob/master/LICENSE) |
+| BOM 采购清单 | [BOM.md](https://github.com/UnitClaw/microduck-WWrobot/blob/master/BOM.md) |
+| 故障排查 | [踩坑记录.md](https://github.com/UnitClaw/microduck-WWrobot/blob/master/踩坑记录.md) |
 
 > 仓库侧反向入口：仓库 `README.md` 顶部有电子书在线阅读链接与配件商城入口；`PARTS.md`、`BOM.md` 等文档也标注了对应电子书章节。
 
@@ -126,16 +126,14 @@
 
 `STEP装配 → Onshape云端CAD（设置零件密度、舵机质量覆盖） → onshape-to-robot导出MJCF → MuJoCo-Warp GPU仿真 → BAM舵机模型（台架实测辨识HD1910参数） → 域随机化+课程学习PPO多任务训练 → ONNX策略导出 → RK3566 Rust固件50Hz实时推理 → 真机采集IMU/关节数据 → 系统辨识修正动力学模型 → 迭代重训`
 
-## 加入交流群
+## NVIDIA Inception 成员
 
 <div style="display:inline-block; padding: 1rem 1.5rem 1.1rem; border:1px solid #e6e8eb; border-radius: 12px; background:#fafbfc;">
-  <img src="assets/wechat-group-2.png" alt="微信交流群二维码" width="132" style="display:block; margin:0 auto; border-radius:6px;">
-  <div style="font-size:0.8rem; color:#6a7078; margin-top:0.6rem; line-height:1.6;">Microduck 商城 2 群<br>扫码入群 · 有效期至 2026-11-09</div>
+  <img src="assets/nvidia-inception-member.jpg" alt="WWNT Robotics 是 NVIDIA Inception 成员" style="display:block; margin:0 auto; border-radius:6px; max-width:100%;">
+  <div style="font-size:0.8rem; color:#6a7078; margin-top:0.6rem; line-height:1.6;">WWNT Robotics 是 NVIDIA Inception 成员<br>We are a member of NVIDIA Inception</div>
 </div>
 
-欢迎加入微信交流群，与社区一起交流复刻经验、反馈勘误、共建国产低成本双足机器人开源生态。
-
-> ⚠️ 微信群二维码 7 天自动失效（本图有效期至 **2026-11-09**）。过期后请访问官网 <https://shop.wwntai.com> 获取最新二维码，或在 GitHub 仓库提 issue 更新。
+WWNT Robotics（万物拟态）是 **NVIDIA Inception** 成员。
 
 ## 开源许可边界（务必阅读）
 

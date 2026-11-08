@@ -1,6 +1,6 @@
 # 整机物料清单（BOM）
 
-> 📖 对应电子书 **附录B：BOM 采购清单** · 在线阅读：<https://unitclaw.github.io/microduck-wwduck/> · 配件商城见 [PARTS.md](PARTS.md)
+> 📖 对应电子书 **附录B：BOM 采购清单** · 在线阅读：<https://unitclaw.github.io/microduck-WWrobot/> · 配件商城见 [PARTS.md](PARTS.md)
 
 > **实物打印件：飞特 HD-1910 路线用本仓[缝合怪版](print/frankenduck/)（36 STL + 3MF 摆盘）；XL330 路线及可编辑 SolidWorks 以 [CAD 仓库](https://github.com/UnitClaw/microduck-wwduck-cad#装配-bom) 对应版本为准。** 本文的 MJCF 引用数和几何推算是上游分析，不是最新打印清单。
 

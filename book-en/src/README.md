@@ -22,9 +22,9 @@
 
 ## Reading Entry Points
 
-- **Online book (English edition)**: <https://unitclaw.github.io/microduck-wwduck/en/>
-- **中文版（Chinese edition）**: <https://unitclaw.github.io/microduck-wwduck/>
-- **Book source repository**: <https://github.com/UnitClaw/microduck-wwduck> (the `book/` Chinese and `book-en/` English directories, written in mdbook and compiled into a web book on every commit)
+- **Online book (English edition)**: <https://unitclaw.github.io/microduck-WWrobot/en/>
+- **中文版（Chinese edition）**: <https://unitclaw.github.io/microduck-WWrobot/>
+- **Book source repository**: <https://github.com/UnitClaw/microduck-WWrobot> (the `book/` Chinese and `book-en/` English directories, written in mdbook and compiled into a web book on every commit)
 
 > Every chapter in this book is bound to a specific commit hash in the companion engineering repository, so readers can check out the corresponding version and fully reproduce each experiment.
 > Each chapter has two entry points in its **upper-right corner**: the 📝 "edit" icon, which jumps to that chapter's source file, and the Octocat icon, which jumps to the repository home.
@@ -35,20 +35,20 @@ Each chapter maps to concrete engineering resources in the repository; click to 
 
 | Book Chapter | Corresponding Repository Resource |
 |---|---|
-| Parts Store | [PARTS.md](https://github.com/UnitClaw/microduck-wwduck/blob/master/PARTS.md) · [Official Store](https://shop.wwntai.com) |
-| Minimal Simulation Demo | [software/training/](https://github.com/UnitClaw/microduck-wwduck/tree/master/software/training) |
-| CAD Model Analysis | [cad/](https://github.com/UnitClaw/microduck-wwduck/tree/master/cad) · [CAD repo](https://github.com/UnitClaw/microduck-wwduck-cad) |
-| Onshape → MJCF | [scripts/](https://github.com/UnitClaw/microduck-wwduck/tree/master/scripts) |
-| 3D Printing & Assembly | [print/](https://github.com/UnitClaw/microduck-wwduck/tree/master/print) · [BOM.md](https://github.com/UnitClaw/microduck-wwduck/blob/master/BOM.md) |
-| Hardware Circuits & Bus | [hardware/](https://github.com/UnitClaw/microduck-wwduck/tree/master/hardware) |
-| RK3566 Image & Firmware | [software/image/](https://github.com/UnitClaw/microduck-wwduck/tree/master/software/image) · [software/studio/](https://github.com/UnitClaw/microduck-wwduck/tree/master/software/studio) |
-| Servo / IMU Calibration | [tools/](https://github.com/UnitClaw/microduck-wwduck/tree/master/tools) |
-| Simulation & Training | [software/training/](https://github.com/UnitClaw/microduck-wwduck/tree/master/software/training) |
-| ONNX Deployment | [software/studio/](https://github.com/UnitClaw/microduck-wwduck/tree/master/software/studio) |
-| Real-Robot Gait | [software/](https://github.com/UnitClaw/microduck-wwduck/tree/master/software) |
-| Engineering & Open Source | [NOTICE.md](https://github.com/UnitClaw/microduck-wwduck/blob/master/NOTICE.md) · [LICENSE](https://github.com/UnitClaw/microduck-wwduck/blob/master/LICENSE) |
-| BOM | [BOM.md](https://github.com/UnitClaw/microduck-wwduck/blob/master/BOM.md) |
-| Troubleshooting | [踩坑记录.md](https://github.com/UnitClaw/microduck-wwduck/blob/master/踩坑记录.md) |
+| Parts Store | [PARTS.md](https://github.com/UnitClaw/microduck-WWrobot/blob/master/PARTS.md) · [Official Store](https://shop.wwntai.com) |
+| Minimal Simulation Demo | [software/training/](https://github.com/UnitClaw/microduck-WWrobot/tree/master/software/training) |
+| CAD Model Analysis | [cad/](https://github.com/UnitClaw/microduck-WWrobot/tree/master/cad) · [CAD repo](https://github.com/UnitClaw/microduck-wwduck-cad) |
+| Onshape → MJCF | [scripts/](https://github.com/UnitClaw/microduck-WWrobot/tree/master/scripts) |
+| 3D Printing & Assembly | [print/](https://github.com/UnitClaw/microduck-WWrobot/tree/master/print) · [BOM.md](https://github.com/UnitClaw/microduck-WWrobot/blob/master/BOM.md) |
+| Hardware Circuits & Bus | [hardware/](https://github.com/UnitClaw/microduck-WWrobot/tree/master/hardware) |
+| RK3566 Image & Firmware | [software/image/](https://github.com/UnitClaw/microduck-WWrobot/tree/master/software/image) · [software/studio/](https://github.com/UnitClaw/microduck-WWrobot/tree/master/software/studio) |
+| Servo / IMU Calibration | [tools/](https://github.com/UnitClaw/microduck-WWrobot/tree/master/tools) |
+| Simulation & Training | [software/training/](https://github.com/UnitClaw/microduck-WWrobot/tree/master/software/training) |
+| ONNX Deployment | [software/studio/](https://github.com/UnitClaw/microduck-WWrobot/tree/master/software/studio) |
+| Real-Robot Gait | [software/](https://github.com/UnitClaw/microduck-WWrobot/tree/master/software) |
+| Engineering & Open Source | [NOTICE.md](https://github.com/UnitClaw/microduck-WWrobot/blob/master/NOTICE.md) · [LICENSE](https://github.com/UnitClaw/microduck-WWrobot/blob/master/LICENSE) |
+| BOM | [BOM.md](https://github.com/UnitClaw/microduck-WWrobot/blob/master/BOM.md) |
+| Troubleshooting | [踩坑记录.md](https://github.com/UnitClaw/microduck-WWrobot/blob/master/踩坑记录.md) |
 
 > Reverse entry points on the repository side: the repository `README.md` carries the online-book link and the parts-store entry at the top; documents such as `PARTS.md` and `BOM.md` also reference their corresponding book chapters.
 
@@ -127,16 +127,14 @@ This book is neither a purely theoretical reinforcement-learning textbook nor a 
 
 `STEP assembly → Onshape cloud CAD (assign part densities, override servo masses) → onshape-to-robot MJCF export → MuJoCo-Warp GPU simulation → BAM servo model (bench-identified HD1910 parameters) → domain randomization + curriculum-learning PPO multi-task training → ONNX policy export → RK3566 Rust firmware 50 Hz real-time inference → real-robot IMU/joint data collection → system identification to correct the dynamics model → iterative retraining`
 
-## Join the Community
+## NVIDIA Inception Member
 
 <div style="display:inline-block; padding: 1rem 1.5rem 1.1rem; border:1px solid #e6e8eb; border-radius: 12px; background:#fafbfc;">
-  <img src="assets/wechat-group-2.png" alt="WeChat community group QR code" width="132" style="display:block; margin:0 auto; border-radius:6px;">
-  <div style="font-size:0.8rem; color:#6a7078; margin-top:0.6rem; line-height:1.6;">MicroDuck Store Group 2<br>Scan to join · valid until 2026-11-09</div>
+  <img src="assets/nvidia-inception-member.jpg" alt="WWNT Robotics is a member of NVIDIA Inception" style="display:block; margin:0 auto; border-radius:6px; max-width:100%;">
+  <div style="font-size:0.8rem; color:#6a7078; margin-top:0.6rem; line-height:1.6;">WWNT Robotics is a member of NVIDIA Inception</div>
 </div>
 
-Join our WeChat community to share replication experience, report corrections, and help build the domestic open-source ecosystem for low-cost bipedal robots.
-
-> ⚠️ The WeChat group QR code expires automatically after 7 days (this image is valid until **2026-11-09**). After expiry, visit <https://shop.wwntai.com> for the latest QR code, or open a GitHub issue to update it.
+WWNT Robotics is a member of **NVIDIA Inception**.
 
 ## Open-Source Licensing Boundaries (Please Read)
 

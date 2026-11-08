@@ -61,7 +61,7 @@ MicroDuck 原版采用 Dynamixel XL330 舵机，官方预购价 **399 美元**�
 | 仓库 | 性质 | 舵机 | 配套 |
 |---|---|---|---|
 | `pollen-robotics/microduck_rl` | 原版 RL 内核 | XL330 | 仅训练代码 |
-| `UnitClaw/microduck-wwduck` | WWNTRobotics 优化版 | HD1910 | 训练+CAD+固件+镜像+工程优化 |
+| `UnitClaw/microduck-WWrobot` | WWNTRobotics 优化版 | HD1910 | 训练+CAD+固件+镜像+工程优化 |
 | `fanhao375/microduck-replica` | 完整复刻工程 | XL330 + HD1910 | 训练+CAD+固件+镜像 |
 | `fanhao375/microduck-replica-cad` | 机械图纸 | XL330 + HD1910 | SolidWorks/STL |
 | `LuwuDynamics/xgoduck_hardware` | 飞特合作机器鸭 | HD1910 | 独立机器人 |

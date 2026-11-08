@@ -55,7 +55,7 @@
 
 这本书和配套仓库都还很年轻，难免有错漏与不足。我们怀着谦逊之心，邀请你一起把它做得更好：
 
-- 发现勘误、表述不清，欢迎提 [Issue](https://github.com/UnitClaw/microduck-wwduck/issues)；
+- 发现勘误、表述不清，欢迎提 [Issue](https://github.com/UnitClaw/microduck-WWrobot/issues)；
 - 有改进、补充，欢迎提 Pull Request；
 - 复现成功、踩过坑，欢迎把你的经验回馈给社区。
 

@@ -1,64 +1,64 @@
-**简体中文** | [English](README.en.md)
+[简体中文](README.zh-CN.md) | **English**
 
-# 🖨️ 鸭子全套打印件 · 缝合怪版
+# 🖨️ Complete duck printing parts · FrankenDuck edition
 
-**这套打印件结合了多位社区制作者的优化，以及 kissqy 在实际装配、运行和维护中做的修改，因此叫“缝合怪版”。** 改动较多，不逐一列出；这里提供作者整理的全套鸭子打印部件和参考摆盘。
+**This set combines improvements from several community makers with modifications kissqy made while assembling, running, and maintaining the real robot. That is why it is called the “FrankenDuck” edition.** The changes are numerous and are not listed individually. This package supplies the author's complete duck printing parts and reference plate layout.
 
-**[⬇️ 下载完整打印包（RAR，14.54 MiB）](Microduck-Print-FrankenDuck-20261015.rar)** · [SHA256 校验](SHA256SUMS) · [包内文件清单](FILES.md) · [鸭子采购总清单](../../BOM.md) · [返回首页](../../README.md)
+**[⬇️ Download the complete package (RAR, 14.54 MiB)](Microduck-Print-FrankenDuck-20261015.rar)** · [SHA256](SHA256SUMS) · [Package file list](FILES.md) · [Duck shopping guide](../../BOM.en.md) · [Homepage](../../README.md)
 
-发布于 **2026-10-15**。包内 **36 个 STL 文件 + 1 个 3MF 摆盘项目（5 盘）**，保留原文件名和摆盘；文件数量不等于装配数量。下载的是原始压缩包，模型与摆盘内容没有重新编辑。
+Published **October 15, 2026**. The archive contains **36 STL files and one 3MF project with 5 plates**. Original filenames and layouts are preserved; file counts are not assembly quantities. The original archive is supplied without editing the models or plate project.
 
-**2026-10-21 更新：**
+**October 21, 2026 update:**
 
-- **腿部支撑增加斜面**，装脚更顺手，减少安装时将脚掌撑开的情况。
-- **取消左右腿外壳外侧沉孔**，保留螺丝孔周围的壁厚，降低跌落时螺丝孔断裂的风险。
-- **在官方滑轮鞋基础上整合可替换脚掌结构**，方便换装脚掌与滑轮组件，无需拆卸舵机。
+- **Added ramps to the leg supports** to ease foot installation and reduce the chance of forcing the foot apart during assembly.
+- **Removed the outer counterbores from both leg shells** to retain more material around the screw holes and reduce the risk of breakage in a fall.
+- **Integrated an interchangeable-foot design based on the official roller shoes**, making it easier to swap feet and roller assemblies without removing the servos.
 
-## 先看这几项
+## Read these first
 
-- **脚部套件支持装滑轮时不拆舵机。** 方便在日常使用和维护时安装滑轮。
-- **电池仓有两份，按需要选一份。** 一份能夹住 HUB 板子；另一份沿用官方式结构，并加厚了卡扣部分。
-- **两份电池仓的 IMU 安装位均按本仓库自制 IMU 设计。** 使用其他 IMU 时，根据自己的板形、尺寸与固定方式修改安装位。
-- **滑轮使用 623ZZ 轴承，尺寸为内径 3 × 外径 10 × 厚 4 mm。** [订单对应购买地址](https://item.taobao.com/item.htm?id=618009195719)；商品款式为 **“623 内3外10厚4”**，店铺为 **EVT进口轴承**。
+- **The foot kit allows rollers to be installed without removing the servos.** This makes installation and maintenance easier.
+- **Choose one of two battery holders.** One clamps a HUB board; the other follows the official-style structure with thicker latch sections.
+- **Both holders have an IMU mount designed for this repository's DIY IMU.** For another IMU, adapt the mount to your board shape, dimensions, and attachment method.
+- **The rollers use 623ZZ bearings: 3 mm bore × 10 mm outer diameter × 4 mm width.** [Product from the supplied order](https://item.taobao.com/item.htm?id=618009195719), seller **EVT进口轴承**, exact order variant **“623 内3外10厚4”**.
 
-## 两种电池仓怎么选
+## Choose the battery holder
 
-文件均在压缩包的 `3D打印缝合怪版/stl模型/躯体部分/` 下：
+Both files are under `3D打印缝合怪版/stl模型/躯体部分/` in the archive:
 
-| 版本 | 文件名 | 用途 |
+| Variant | Filename | Use |
 | --- | --- | --- |
-| **夹 HUB 板版** | `电池仓_M2.5螺丝_HUB组合.stl` | 需要同时夹持 HUB 板时选择；使用 M2.5 螺丝的 HUB 组合结构；按需要选择。 |
-| **官方式加厚卡扣版** | `电池仓_卡扣加厚.stl` | 沿用官方式电池仓结构，加厚卡扣部分；可用这份 STL 替换摆盘中的电池仓。 |
+| **HUB-clamping holder** | `电池仓_M2.5螺丝_HUB组合.stl` | Choose when the holder also needs to clamp the HUB board. HUB combination structure using M2.5 screws; choose as needed. |
+| **Official-style holder with thicker latches** | `电池仓_卡扣加厚.stl` | Official-style battery holder with thicker latch sections; import this STL to replace the holder on the plate if preferred. |
 
-两者均配套 [本仓库 IMU](../README.md)；IMU 的烧录与接线见 [FT6 固件指南](../IMU-FIRMWARE.md)。
+Both fit [this repository's IMU](../README.md). Flashing and wiring instructions are in the [FT6 guide](../IMU-FIRMWARE.en.md).
 
-## 怎么使用打印包
+## Use the package
 
-1. 下载并解压 RAR。根目录里的 **`缝合怪摆盘.3mf`** 是参考摆盘，`stl模型/` 是分类后的单件模型。
-2. 用 Bambu Studio 打开 3MF 项目。原项目记录为 **BambuStudio 02.08.02.61 / Bambu Lab P2S / 0.4 mm 喷嘴 / 0.20 mm Standard**；按自己的打印机、喷嘴和材料调整。
-3. 选择所需电池仓版本；需要调整布局、数量或单独重打时，从对应分类导入 STL。
-4. **第 5 盘名为 TPU，`TPU部分/` 包含 `左脚底.stl`、`右脚底.stl` 和 `滑轮.stl`。** 原项目保存的材料预设为 PLA，打印这盘前要切换为实际使用的 **TPU 材料配置**。
+1. Download and extract the RAR. **`缝合怪摆盘.3mf`** at its root is the reference plate project; `stl模型/` contains the individual models by category.
+2. Open the 3MF as a project in Bambu Studio. Its recorded setup is **BambuStudio 02.08.02.61 / Bambu Lab P2S / 0.4 mm nozzle / 0.20 mm Standard**. Adjust the printer, nozzle, and material settings for your setup.
+3. Choose the battery-holder variant. Import the individual STL files to change layout or quantities, or to reprint a part.
+4. **Plate 5 is named TPU; `TPU部分/` contains the two soles and the tire.** The saved project material presets are PLA. Before printing this plate, select the **TPU material profile** you actually use.
 
-硬质零件按实际材料、机器和装配需要选择切片设置；摆盘保留作者的布置，不作为所有设备通用的打印参数。
+Choose slicing settings for rigid parts according to your material, printer, and assembly needs. The supplied layout preserves the author's arrangement, and its settings must be adapted to the target equipment.
 
-## 原摆盘预览
+## Original plate previews
 
-下图直接取自原 3MF 项目的预览图。第 5 盘为 TPU 部分。
+These images come directly from the supplied 3MF project. Plate 5 is the TPU group.
 
 <table>
   <tr>
-    <td align="center"><b>第 1 盘</b><br><img src="plate-1.png" width="240" alt="缝合怪版第1盘原摆盘预览"></td>
-    <td align="center"><b>第 2 盘</b><br><img src="plate-2.png" width="240" alt="缝合怪版第2盘原摆盘预览"></td>
-    <td align="center"><b>第 3 盘</b><br><img src="plate-3.png" width="240" alt="缝合怪版第3盘原摆盘预览"></td>
+    <td align="center"><b>Plate 1</b><br><img src="plate-1.png" width="240" alt="Original FrankenDuck plate 1 preview"></td>
+    <td align="center"><b>Plate 2</b><br><img src="plate-2.png" width="240" alt="Original FrankenDuck plate 2 preview"></td>
+    <td align="center"><b>Plate 3</b><br><img src="plate-3.png" width="240" alt="Original FrankenDuck plate 3 preview"></td>
   </tr>
   <tr>
-    <td align="center"><b>第 4 盘</b><br><img src="plate-4.png" width="240" alt="缝合怪版第4盘原摆盘预览"></td>
-    <td align="center"><b>第 5 盘 · TPU</b><br><img src="plate-5.png" width="240" alt="缝合怪版第5盘TPU原摆盘预览"></td>
+    <td align="center"><b>Plate 4</b><br><img src="plate-4.png" width="240" alt="Original FrankenDuck plate 4 preview"></td>
+    <td align="center"><b>Plate 5 · TPU</b><br><img src="plate-5.png" width="240" alt="Original FrankenDuck TPU plate 5 preview"></td>
   </tr>
 </table>
 
-## 来源与整理
+## Sources and assembly
 
-这套文件在官方 Microduck 结构的基础上，汇集多位社区制作者的优化，并结合 kissqy 的实机经验做组合和适配。感谢官方与社区原作者的贡献；各原作的权利与许可按原来源保留，kissqy 的新增修改遵循 [本项目分项许可](../../NOTICE.md)。
+This set starts from the official Microduck structure, incorporates improvements from multiple community makers, and combines them with kissqy's practical robot modifications. Credit belongs to the upstream project and the contributing makers. Original works retain their source rights and licenses; kissqy's additions follow this project's [component licenses](../../NOTICE.md).
 
-包内文件路径、大小与 SHA256 见 [FILE-MANIFEST.json](FILE-MANIFEST.json)。
+Archive paths, sizes, and SHA256 hashes are recorded in [FILE-MANIFEST.json](FILE-MANIFEST.json).

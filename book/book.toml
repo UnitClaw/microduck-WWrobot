@@ -11,8 +11,8 @@ build-dir = "book"
 create-missing = false
 
 [output.html]
-git-repository-url = "https://github.com/UnitClaw/microduck-wwduck"
+git-repository-url = "https://github.com/UnitClaw/microduck-WWrobot"
 git-repository-icon = "fa-github"
-edit-url-template = "https://github.com/UnitClaw/microduck-wwduck/edit/master/book/src/{path}"
+edit-url-template = "https://github.com/UnitClaw/microduck-WWrobot/edit/master/book/src/{path}"
 additional-css = ["custom.css"]
 additional-js = ["custom.js"]

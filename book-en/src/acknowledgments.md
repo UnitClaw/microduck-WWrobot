@@ -55,7 +55,7 @@ Thanks to every developer who provided feedback, corrections, and suggestions in
 
 This book and its companion repository are still young and inevitably contain errors and omissions. With humility, we invite you to make them better:
 
-- If you find errors or unclear wording, please open an [Issue](https://github.com/UnitClaw/microduck-wwduck/issues);
+- If you find errors or unclear wording, please open an [Issue](https://github.com/UnitClaw/microduck-WWrobot/issues);
 - If you have improvements or additions, please submit a Pull Request;
 - If you have reproduced the result successfully or hit pitfalls, please share your experience back with the community.
 

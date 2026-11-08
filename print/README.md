@@ -1,36 +1,36 @@
-# 打印文件 · 缝合怪版（FrankenDuck）
+# Print Files · FrankenDuck Edition
 
-**简体中文** · [English](README.en.md)
+**English** | [简体中文](README.zh-CN.md)
 
-**本仓库的 3D 打印件采用「缝合怪版」** —— 汇集多位社区制作者的优化与实机装配改动，由 [@kissqy](https://github.com/kissqy) 整理发布（原目录 [kissqy/Microduck-kissqy · hardware/3d-print-frankenduck](https://github.com/kissqy/Microduck-kissqy/tree/main/hardware/3d-print-frankenduck)），现由 WWNT Robotics 维护。
+**This repository's 3D print set is the "FrankenDuck" edition** — combining optimizations from several community makers with changes made during real-world assembly and operation, curated and published by [@kissqy](https://github.com/kissqy) (original directory [kissqy/Microduck-kissqy · hardware/3d-print-frankenduck](https://github.com/kissqy/Microduck-kissqy/tree/main/hardware/3d-print-frankenduck)), now maintained by WWNT Robotics.
 
-## 下载
+## Download
 
-| 内容 | 下载 |
+| Item | Download |
 |---|---|
-| **完整打印包**（36 个 STL + 1 个 3MF 摆盘，5 盘，14.5 MiB） | [⬇️ RAR](frankenduck/Microduck-Print-FrankenDuck-20261015.rar) |
-| 包内文件清单 | [FILES.md](frankenduck/FILES.md) |
-| SHA256 校验 | [SHA256SUMS](frankenduck/SHA256SUMS) |
-| 摆盘预览（5 盘） | [frankenduck/](frankenduck/) |
+| **Full print pack** (36 STL + 1 3MF plate project, 5 plates, 14.5 MiB) | [⬇️ RAR](frankenduck/Microduck-Print-FrankenDuck-20261015.rar) |
+| File list | [FILES.md](frankenduck/FILES.md) |
+| SHA256 checksums | [SHA256SUMS](frankenduck/SHA256SUMS) |
+| Plate previews (5 plates) | [frankenduck/](frankenduck/) |
 
-## 两种电池仓
+## Two battery holders
 
-文件在压缩包 `stl模型/躯体部分/` 下：
+Files are under `stl模型/躯体部分/` inside the archive:
 
-| 版本 | 文件 | 用途 |
+| Version | File | Use |
 |---|---|---|
-| **夹 HUB 板版** | `电池仓_M2.5螺丝_HUB组合.stl` | 需要同时夹持 HUB 板时选择 |
-| **官方式加厚卡扣版** | `电池仓_卡扣加厚.stl` | 沿用官方式结构，加厚卡扣部分 |
+| **HUB-clamping** | `电池仓_M2.5螺丝_HUB组合.stl` | Choose when you also need to clamp the HUB board |
+| **Official-style, thicker latch** | `电池仓_卡扣加厚.stl` | Follows the official structure with a thicker latch |
 
-## 打印要点
+## Print notes
 
-- **第 5 盘为 TPU**（`左脚底`、`右脚底`、`滑轮`），打印前切换为 TPU 材料配置
-- 滑轮使用 **623ZZ（3×10×4 mm）** 轴承，按选配另购
-- 参考摆盘：Bambu Lab P2S / 0.4 mm 喷嘴 / 0.20 mm Standard；按自己的机器调整
-- 硬质件为 PLA；软下巴、软嘴顶部等柔性件按 BOM 用 TPU
+- **Plate 5 is TPU** (`左脚底`, `右脚底`, `滑轮`) — switch to a TPU material profile before slicing
+- Rollers use **623ZZ (3×10×4 mm)** bearings, purchased separately
+- Reference plates: Bambu Lab P2S / 0.4 mm nozzle / 0.20 mm Standard; adjust for your own machine
+- Rigid parts are PLA; flexible parts such as the soft jaw and soft mouth top are TPU per the BOM
 
-## 与可编辑图纸的关系
+## Relation to the editable drawings
 
-缝合怪版是**直接打印的 STL / 3MF**。如需二次设计、改尺寸，用可编辑的 SolidWorks 源文件，统一维护在 [microduck-wwduck-cad](https://github.com/UnitClaw/microduck-wwduck-cad)（飞特 HD-1910 / XL330 两版）。
+FrankenDuck is **print-ready STL / 3MF**. For redesign or resizing, use the editable SolidWorks sources maintained in [microduck-wwduck-cad](https://github.com/UnitClaw/microduck-wwduck-cad) (Feetech HD-1910 / XL330 versions).
 
-> 缝合怪版版权归原作者 kissqy 及社区贡献者所有，新增修改遵循其分项许可；转载与二次分发请保留署名。
+> The FrankenDuck edition is the work of its original author kissqy and community contributors; their additions follow the project's per-component license. Preserve attribution when redistributing.

@@ -61,7 +61,7 @@ Key specifications of the Feetech HD1910:
 | Repository | Nature | Servo | Companion assets |
 |---|---|---|---|
 | `pollen-robotics/microduck_rl` | Original RL core | XL330 | Training code only |
-| `UnitClaw/microduck-wwduck` | WWNTRobotics-optimized edition | HD1910 | Training + CAD + firmware + image + engineering optimizations |
+| `UnitClaw/microduck-WWrobot` | WWNTRobotics-optimized edition | HD1910 | Training + CAD + firmware + image + engineering optimizations |
 | `fanhao375/microduck-replica` | Complete replica project | XL330 + HD1910 | Training + CAD + firmware + image |
 | `fanhao375/microduck-replica-cad` | Mechanical drawings | XL330 + HD1910 | SolidWorks/STL |
 | `LuwuDynamics/xgoduck_hardware` | Feetech-partner robot duck | HD1910 | Standalone robot |

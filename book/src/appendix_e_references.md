@@ -9,7 +9,7 @@
 | Pollen mjlab | https://github.com/pollen-robotics/mjlab |
 | fanhao375 microduck-replica | https://github.com/fanhao375/microduck-replica |
 | fanhao375 microduck-replica-cad | https://github.com/fanhao375/microduck-replica-cad |
-| UnitClaw microduck-wwduck（WWNTRobotics 优化版） | https://github.com/UnitClaw/microduck-wwduck |
+| UnitClaw microduck-WWrobot（WWNTRobotics 优化版） | https://github.com/UnitClaw/microduck-WWrobot |
 | LuwuDynamics xgoduck_hardware | https://github.com/LuwuDynamics/xgoduck_hardware |
 | onshape-to-robot | https://github.com/onshape-to-robot/onshape-to-robot |
 | NVIDIA Warp | https://github.com/NVIDIA/warp |

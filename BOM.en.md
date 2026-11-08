@@ -206,7 +206,7 @@ Derivation: [fastener reconstruction](docs/fastener-reconstruction.en.md).
 
 **The Feetech HD-1910 route prints from this repo's [FrankenDuck edition](print/frankenduck/) (36 STL + 3MF plates); the XL330 route and editable SolidWorks are maintained in the [CAD repository](https://github.com/UnitClaw/microduck-wwduck-cad#装配-bom).** Select the servo version first, then check the attachment version. This repository no longer presents upstream mesh-reference counts as a current print BOM.
 
-FrankenDuck plate 5 is TPU (rollers, left/right soles); the rollers use 623ZZ bearings with replaceable feet. Walking parts and roller replacements are not interchangeable. See [printing and version notes](print/README.en.md).
+FrankenDuck plate 5 is TPU (rollers, left/right soles); the rollers use 623ZZ bearings with replaceable feet. Walking parts and roller replacements are not interchangeable. See [printing and version notes](print/README.md).
 
 ---
 

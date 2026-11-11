@@ -36,7 +36,7 @@ Microduck 是 Pollen Robotics 的商业产品，硬件**部分开源**：
 | `software/studio/web/model/` | Studio 网页里的 3D 鸭子 | 从上游仿真模型转换，只留外形，非最新实物 CAD |
 | `docs/hole_analysis.json` | 孔位几何分析数据 | 由上游 STL 计算得出 |
 
-> **模型下载迁移（2026-09-28）**：`print/` 和 `cad/` 曾改为指向 [CAD 仓库](https://github.com/UnitClaw/microduck-wwduck-cad) 的入口说明，旧单件 STL、装配 STL 与对照表已从当前版本移除，避免误作最新打印件。后续 `print/` 重新承载飞特 HD-1910 ****打印件（见 ）。Git 历史中的旧模型仍为上游 STL 的重命名、分类或装配变换衍生作品，继续遵循 CC BY-NC-SA；移除下载副本不改变历史文件的作者与许可。
+> **模型下载迁移（2026-09-28）**：`print/` 和 `cad/` 曾改为指向 [CAD 仓库](https://github.com/UnitClaw/microduck-wwduck-cad) 的入口说明，旧单件 STL、装配 STL 与对照表已从当前版本移除，避免误作最新打印件。飞特 HD-1910 与 XL330 的打印件现统一由 [CAD 仓库](https://github.com/UnitClaw/microduck-wwduck-cad) 维护。Git 历史中的旧模型仍为上游 STL 的重命名、分类或装配变换衍生作品，继续遵循 CC BY-NC-SA；移除下载副本不改变历史文件的作者与许可。
 
 **本项目原创内容：**
 
@@ -82,7 +82,7 @@ Microduck 是 Pollen Robotics 的商业产品，硬件**部分开源**：
 ## 配套仓库：SolidWorks 三维图纸
 
 [**UnitClaw/microduck-wwduck-cad**](https://github.com/UnitClaw/microduck-wwduck-cad)
-统一维护可编辑的 SolidWorks / STEP 与 21 页装配安装说明书。飞特与 XL330 分版本提供，文件清单以该仓库对应发布为准。直接打印用的飞特 STL / 3MF 由本仓 `print/` 维护（作者 kissqy 及社区贡献者），与 CAD 仓库的可编辑源文件用途不同、互补对应。
+统一维护可编辑的 SolidWorks / STEP、21 页装配安装说明书，以及飞特 / XL330 直接打印用的 STL / 3MF。飞特与 XL330 分版本提供，文件清单以该仓库对应发布为准。打印件作者为 kissqy 及社区贡献者。
 
 | 内容 | 作者 | 许可证 |
 |---|---|---|
